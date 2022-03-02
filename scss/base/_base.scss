@@ -1,0 +1,29 @@
+@use '../variables/colors' as c;
+@use '../variables/fonts' as f;
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: c.$dark-blue;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: f.$font-family;
+  color: c.$light-cyan;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.main {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}

@@ -1,0 +1,8 @@
+@use 'functions' as f;
+
+
+@mixin point($point) {
+  @media screen and (min-width: f.breakpoint($point)) {
+    @content;
+  }
+}
