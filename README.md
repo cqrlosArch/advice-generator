@@ -3,7 +3,7 @@
 <h1 align="center">Advice generator app</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="https://www.frontendmentor.io/home" target="_blank">Devchallenges.io</a>.
+   Solution for a challenge from  <a href="https://www.frontendmentor.io/home" target="_blank">Frontendmentor.io</a>.
 </div>
 
 <div align="center">
